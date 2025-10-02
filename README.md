@@ -1,73 +1,82 @@
-# Welcome to your Lovable project
+# Portfolio Personal - Leticia Amen
 
-## Project info
+## 👋 Sobre este proyecto
 
-**URL**: https://lovable.dev/projects/678365d1-75ab-401b-b0ea-2e06c6674487
+¡Hola! Soy Leticia Amen, desarrolladora de software y técnica en TI, actualmente cursando la Licenciatura en la misma área. Este es mi portfolio personal donde muestro mis proyectos, habilidades y certificaciones en el mundo del desarrollo y cloud computing.
 
-## How can I edit this code?
+## 🚀 Tecnologías utilizadas
 
-There are several ways of editing your application.
+Este portfolio está construido con tecnologías modernas para garantizar una experiencia de usuario óptima:
 
-**Use Lovable**
+- **Vite** - Build tool rápido y moderno
+- **TypeScript** - JavaScript con tipado estático
+- **React** - Librería para interfaces de usuario
+- **shadcn/ui** - Sistema de componentes elegante
+- **Tailwind CSS** - Framework de CSS utility-first
+- **Lucide React** - Iconos modernos y limpioslayer
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/678365d1-75ab-401b-b0ea-2e06c6674487) and start prompting.
+## 💼 Mis especialidades
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Backend Development**: Java, Spring Boot, APIs RESTful
+- **Cloud Computing**: AWS, Google Cloud Platform
+- **Bases de datos**: SQL, diseño de esquemas, optimización
+- **Ciberseguridad**: Certificaciones Cisco, CCNA
 
-**Use your preferred IDE**
+## 🤖 Sobre el desarrollo de este portfolio
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Aunque mi experiencia principal está en el backend con Java y Spring Boot, para este portfolio decidí explorar el mundo del frontend moderno. Para agilizar el proceso y crear un resultado profesional, utilicé **Lovable**, una plataforma de IA que me permitió:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Generar rápidamente la estructura base del proyecto
+- Implementar componentes de React con TypeScript sin ser experta en estas tecnologías
+- Crear un diseño responsive y moderno con Tailwind CSS
+- Enfocarme en el contenido y la presentación de mis habilidades backend
 
-Follow these steps:
+Esta experiencia me ha permitido aprender sobre herramientas modernas de desarrollo mientras mantengo mi enfoque principal en mi carrera profesional. Creo firmemente en usar las herramientas adecuadas para cada tarea, y la IA es una excelente aliada para explorar nuevas tecnologías de manera eficiente.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🛠️ Configuración del proyecto
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Si quieres explorar el código o contribuir, sigue estos pasos:
 
-# Step 3: Install the necessary dependencies.
-npm i
+```bash
+# Clona el repositorio
+git clone https://github.com/LeticiaAmen/leticia-amen-portfolio-c60c95a0.git
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Navega al directorio
+cd leticia-amen-portfolio-c60c95a0
+
+# Instala las dependencias
+npm install
+
+# Inicia el servidor de desarrollo
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## 🎨 Características del diseño
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- **Diseño responsivo**: Optimizado para todos los dispositivos
+- **Navegación suave**: Scroll animado entre secciones
+- **Sistema de colores personalizado**: Paleta profesional con gradientes
+- **Componentes modulares**: Arquitectura escalable y mantenible
+- **Accesibilidad**: Siguiendo las mejores prácticas de UX/UI
 
-**Use GitHub Codespaces**
+## 📱 Secciones del portfolio
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- **Hero**: Presentación principal con CTA
+- **Sobre mí**: Mi experiencia y enfoque profesional
+- **Proyectos**: Showcase de mis trabajos más relevantes
+- **Certificaciones**: Credenciales y formación continua
+- **Contacto**: Formas de conectar conmigo
 
-## What technologies are used for this project?
+## 📝 Scripts disponibles
 
-This project is built with:
+- `npm run dev` - Servidor de desarrollo (puerto 8080)
+- `npm run build` - Build de producción
+- `npm run build:dev` - Build en modo desarrollo
+- `npm run lint` - Análisis de código con ESLint
+- `npm run preview` - Vista previa del build de producción
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 💡 Reflexión sobre este proyecto
 
-## How can I deploy this project?
+Este portfolio representa mi filosofía como desarrolladora: usar las herramientas más eficientes para cada desafío. 
 
-Simply open [Lovable](https://lovable.dev/projects/678365d1-75ab-401b-b0ea-2e06c6674487) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Al usar IA para el frontend, pude crear un resultado profesional sin desviar años de mi carrera. Esto demuestra adaptabilidad y eficiencia - cualidades que aporto a cualquier equipo de desarrollo.
