@@ -8,7 +8,7 @@ const Projects = () => {
     {
       title: "Gym Management System",
       description: "Sistema web  para la gestión integral de gimnasios, diseñado para automatizar procesos administrativos, control de membresías, pagos, seguimiento de asistencias y generación de reportes.",
-      technologies: ["Spring Boot", "JPA/Hibernate", "PostgreSQL", "Bootstrap", "Thymeleaf"],
+      technologies: ["Spring Boot", "JPA/Hibernate", "PostgreSQL", "REST API"],
       github: "#",
       icon: "🏋️‍♀️",
     },
