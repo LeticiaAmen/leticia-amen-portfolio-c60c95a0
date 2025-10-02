@@ -29,7 +29,7 @@ const Hero = () => {
               Leticia Amen
             </h1>
             <h2 className="text-2xl md:text-3xl text-muted-foreground">
-              Desarrolladora de Software | Java, Spring Boot & Cloud
+              Desarrolladora de Software | Técnica Universitaria en TI
             </h2>
             <p className="text-lg text-muted-foreground max-w-xl">
               Apasionada por el desarrollo backend y la gestión de datos, con experiencia académica 
