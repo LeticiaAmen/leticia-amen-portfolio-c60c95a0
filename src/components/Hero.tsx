@@ -32,7 +32,7 @@ const Hero = () => {
               Desarrolladora de Software | Técnica Universitaria en TI
             </h2>
             <p className="text-lg text-muted-foreground max-w-xl">
-              Apasionada por el desarrollo backend y la gestión de datos, con experiencia académica 
+              Apasionada por la tecnología y el desarrollo, con experiencia académica 
               en proyectos reales y certificaciones en ciberseguridad y computación en la nube.
             </p>
             
