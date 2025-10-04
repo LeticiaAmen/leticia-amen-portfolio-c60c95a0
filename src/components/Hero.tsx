@@ -1,6 +1,7 @@
 import { Download, Mail, ArrowDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-developer.jpg";
+import { getAssetPath } from "@/lib/assets";
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -51,7 +52,7 @@ const Hero = () => {
                 className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all"
                 asChild
               >
-                <a href="/cv.pdf" download>
+                <a href={getAssetPath("cv.pdf")} download>
                   <Download className="mr-2 h-4 w-4" />
                   Descargar CV
                 </a>
