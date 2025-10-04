@@ -15,14 +15,14 @@ const Contact = () => {
       icon: Linkedin,
       label: "LinkedIn",
       value: "Conectar en LinkedIn",
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/leticia-amen-lorenzo-7a442613b",
       color: "text-primary",
     },
     {
       icon: Github,
       label: "GitHub",
       value: "Ver repositorios",
-      href: "https://github.com",
+      href: "https://github.com/LeticiaAmen",
       color: "text-secondary",
     },
   ];
