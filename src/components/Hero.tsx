@@ -19,7 +19,7 @@ const Hero = () => {
           background: "var(--gradient-hero)",
         }}
       />
-      
+
       <div className="container mx-auto px-6 py-32 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 animate-fade-in">
@@ -33,10 +33,11 @@ const Hero = () => {
               Desarrolladora de Software | Técnica Universitaria en TI
             </h2>
             <p className="text-lg text-muted-foreground max-w-xl">
-              Apasionada por la tecnología y el desarrollo, con experiencia académica 
-              en proyectos reales y certificaciones en ciberseguridad y computación en la nube.
+              Desarrollo aplicaciones web con foco en funcionalidad, claridad y buena experiencia de usuario.
+              Tengo base en backend y bases de datos, pero también experiencia trabajando con frontend moderno, testing funcional y proyectos full-stack académicos y personales.
+              Busco mi primera oportunidad en IT para seguir aprendiendo, aportar valor y crecer en equipos de desarrollo.
             </p>
-            
+
             <div className="flex flex-wrap gap-4 pt-4">
               <Button
                 size="lg"

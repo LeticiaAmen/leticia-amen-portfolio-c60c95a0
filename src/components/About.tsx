@@ -36,12 +36,13 @@ const About = () => {
 
           <div className="space-y-6 text-lg text-muted-foreground mb-12">
             <p>
-              Soy <span className="text-foreground font-semibold">Técnica Superior en Tecnologías de la Información</span> y 
+              Soy <span className="text-foreground font-semibold">Técnica Superior en Tecnologías de la Información</span> y
               estudiante de la <span className="text-foreground font-semibold">Licenciatura en TI en UTEC</span> (Uruguay).
             </p>
             <p>
-              Me especializo en el desarrollo backend con <span className="text-foreground font-semibold">Java y Spring Boot</span>, 
-              bases de datos relacionales (PostgreSQL, Oracle SQL), testing funcional y soluciones en la nube.
+              A lo largo de mis estudios y proyectos personales trabajé en aplicaciones web completas, participando en análisis de requerimientos, desarrollo, pruebas y documentación.
+              Tengo interés en roles de desarrollo web, full-stack junior, testing funcional o áreas afines, donde pueda seguir desarrollando mis habilidades técnicas y ganar experiencia profesional real.
+              Me adapto rápido a nuevas herramientas, disfruto entender cómo funcionan los sistemas de punta a punta y valoro el trabajo colaborativo.
             </p>
             <p className="text-foreground font-semibold text-xl">
               Mi objetivo es construir software escalable, seguro y de impacto, mientras sigo creciendo en el mundo IT.

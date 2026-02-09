@@ -6,10 +6,27 @@ import { useState } from "react";
 import { getAssetPath, getPublicAssetPath } from "@/lib/assets";
 
 const Projects = () => {
-  const [currentImageIndex, setCurrentImageIndex] = useState<{[key: number]: number}>({});
-  const [imageErrors, setImageErrors] = useState<{[key: string]: boolean}>({});
+  const [currentImageIndex, setCurrentImageIndex] = useState<{ [key: number]: number }>({});
+  const [imageErrors, setImageErrors] = useState<{ [key: string]: boolean }>({});
 
   const projects = [
+    {
+      title: "Americanos App",
+      description: "Aplicación web para organizar torneos de pádel estilo 'Americano'. Genera automáticamente calendarios de partidos, gestiona puntuaciones y muestra clasificaciones en tiempo real. Soporta modalidad tradicional y mixta. Creada con Firebase Studio, desplegada con dominio propio y en uso activo con amigos.",
+      technologies: ["Next.js", "React", "Firebase", "Tailwind CSS", "ShadCN/UI"],
+      demo: "https://americanosapp.com",
+      icon: "🎾",
+      images: [
+        getPublicAssetPath("projects/americanos-landing.png"),
+        getPublicAssetPath("projects/americanos-torneo.png"),
+        getPublicAssetPath("projects/americanos-real.png")
+      ],
+      imageDescriptions: [
+        "Página de inicio con login de Google",
+        "Vista de torneo con calendario de partidos y clasificación en tiempo real",
+        "La app en uso real durante un americano de pádel"
+      ]
+    },
     {
       title: "Gym Management System",
       description: "Sistema web para la gestión integral de gimnasios, diseñado para automatizar procesos administrativos, control de membresías, pagos, seguimiento de asistencias y generación de reportes. Dashboard interactivo con métricas en tiempo real.",
@@ -89,7 +106,7 @@ const Projects = () => {
                           onLoad={() => console.log('Image loaded:', project.images[currentImageIndex[index] || 0])}
                         />
                       )}
-                      
+
                       {/* Navigation Arrows */}
                       {project.images.length > 1 && (
                         <>
@@ -109,17 +126,16 @@ const Projects = () => {
                           >
                             <ChevronRight className="h-4 w-4" />
                           </Button>
-                          
+
                           {/* Dots Indicator */}
                           <div className="absolute bottom-2 left-1/2 -translate-x-1/2 flex gap-1">
                             {project.images.map((_, imgIndex) => (
                               <button
                                 key={imgIndex}
-                                className={`w-2 h-2 rounded-full transition-colors ${
-                                  (currentImageIndex[index] || 0) === imgIndex 
-                                    ? 'bg-white' 
-                                    : 'bg-white/50'
-                                }`}
+                                className={`w-2 h-2 rounded-full transition-colors ${(currentImageIndex[index] || 0) === imgIndex
+                                  ? 'bg-white'
+                                  : 'bg-white/50'
+                                  }`}
                                 onClick={() => setCurrentImageIndex(prev => ({
                                   ...prev,
                                   [index]: imgIndex
@@ -138,18 +154,32 @@ const Projects = () => {
                     <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">
                       {project.icon}
                     </div>
-                    {project.github && (
-                      <Button
-                        variant="ghost"
-                        size="icon"
-                        asChild
-                        className="hover:bg-primary/10 hover:text-primary"
-                      >
-                        <a href={project.github} target="_blank" rel="noopener noreferrer">
-                          <Github className="h-5 w-5" />
-                        </a>
-                      </Button>
-                    )}
+                    <div className="flex gap-1">
+                      {project.demo && (
+                        <Button
+                          variant="ghost"
+                          size="icon"
+                          asChild
+                          className="hover:bg-accent/10 hover:text-accent"
+                        >
+                          <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                            <ExternalLink className="h-5 w-5" />
+                          </a>
+                        </Button>
+                      )}
+                      {project.github && (
+                        <Button
+                          variant="ghost"
+                          size="icon"
+                          asChild
+                          className="hover:bg-primary/10 hover:text-primary"
+                        >
+                          <a href={project.github} target="_blank" rel="noopener noreferrer">
+                            <Github className="h-5 w-5" />
+                          </a>
+                        </Button>
+                      )}
+                    </div>
                   </div>
                   <CardTitle className="text-xl group-hover:text-primary transition-colors">
                     {project.title}
